@@ -23,5 +23,5 @@
 
   # Set an initial password here or at runtime do `machinectl shell nixos` and
   # run `passwd` there.
-  users.users.root.initialHashedPassword = "thanh";
+  users.users.root.initialPassword = "thanh";
 }
